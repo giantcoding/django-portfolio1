@@ -1,0 +1,21 @@
+{% extends 'webapp/base.html' %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block background %}{% load static %}{% static 'webapp/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Asesoría</span>
+{% endblock %}
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <h2 class="pb-4">¡Contactarme es muy sencillo!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+        <br>
+        <p><b>Teléfono:</b> +34000000000</p>
+        <p><b>Honorarios:</b> 60€/h (precio base)</p>
+    </div>
+</div>
+{% endblock %}
